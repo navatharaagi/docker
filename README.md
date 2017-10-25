@@ -21,10 +21,10 @@ $docker ps    /*lists started id
 $docker rm -f $(docker ps -aq)    /*to del all running & stopped containers (a-all,
 q-quiet (only display numeric ids),f-filter o/p) we can check it by starting the deleted containers, which gives error
 ```
-4. Create a Dockerfile 
-    1.Base image as CentOS 7  
+4. Create a Dockerfile
+    1. Base image as CentOS 7  
     2. Install Open JDk
-    3.Add user/group  tomcat     
-    4.Install tomcat
-    5.CMD - start tomcat
-    6.Build,run, ship/push
+    3. Add user/group  tomcat     
+    4. Install tomcat
+    5. CMD - start tomcat
+    6. Build,run, ship/push
