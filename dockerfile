@@ -1,6 +1,19 @@
-# A basic docker file to install tomcat and openjdk8 
+# A basic docker file to install tomcat and openjdk8
 FROM centos:7
 MAINTAINER Navatha Raagi
+
+
+USER root
+
+RUN mkdir /app
+ENV JAVA_APP_DIR /app
+
+RUN yum install -y \
+       java-1.8.0-openjdk \
+       java-1.8.0-openjdk-devel
+
+ENV JAVA_HOME /etc/alternatives/jre
+
 
 EXPOSE 8080
 
