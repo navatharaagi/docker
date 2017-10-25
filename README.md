@@ -8,7 +8,7 @@ $docker pull centos:7    /*pulls centos 7 image,when docker in running state
 ```
 3. Docker run centOs 7 Image
 ```ssh
-$docker images     /*gives image id and details which is constant
+$docker images     /*gives image id and details which is unique
 $docker run -id <image id>    /*to run image
 $docker ps      /*lists the running containers with unique ids after every docker run
 $docker exec -it  <container id>  /bin/bash     /*to login to container
