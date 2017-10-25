@@ -2,6 +2,10 @@
 https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
 1. Install docker on mac & create docker account
 - After docker installation,start docker
+```ssh
+$docker login     /*login to our registry
+username: xxxxxx
+pwd: xxxxxxx
 2. Pull CentOS 7 Image from docker registry
 ```ssh
 $docker pull centos:7    /*pulls centos 7 image,when docker in running state
