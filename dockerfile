@@ -1,5 +1,5 @@
 # A basic docker file to install tomcat
-FROM centos:7
+FROM fabric8/java-centos-openjdk8-jre:1.0.0
 MAINTAINER Navatha Raagi
 
 EXPOSE 8080
