@@ -1,6 +1,6 @@
 # docker
 https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
-1. create docker account / Install docker on mac
+1. Install docker on mac & create docker account 
 - After docker installation,start docker
 2. Pull CentOS 7 Image from docker registry
 ```ssh
