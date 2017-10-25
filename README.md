@@ -23,7 +23,7 @@ q-quiet (only display numeric ids),f-filter o/p) we can check it by starting the
 ```
 4. Create a Dockerfile
     1. Base image as CentOS 7  
-    2. Install Open JDk
+    2. Install Open JDk 8
     3. Add user/group  tomcat     
     4. Install tomcat
     5. CMD - start tomcat
