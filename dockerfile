@@ -8,7 +8,8 @@ ENV TOMCAT_VERSION 8.0.26
 ENV DEPLOY_DIR /maven
 
 # Get and unpack tomcat
-RUN curl http://archive.apache.org/dist/tomcat/tomcat-8/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz -o /tmp/catalina.tar.gz \
+RUN curl http://download.nextag.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz -o
+/tmp/catalina.tar.gz \
  && tar xzf /tmp/catalina.tar.gz -C /opt \
  && ln -s /opt/apache-tomcat-${TOMCAT_VERSION} /opt/tomcat \
  && rm /tmp/catalina.tar.gz
