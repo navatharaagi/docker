@@ -37,5 +37,5 @@ q-quiet (only display numeric ids),f-filter o/p) we can check it by starting the
 $docker build -t tomcatjdk8 .    /* build docker image with tag
 $docker tag tomcatjdk8:latest <username>/tomcatjdk8:latest    /*docker tagging
 $docker push <username>/tomcatjdk8:latest   /* push image to our registry
-$docker rmi <imageid>   /*to remove container
+$docker rmi <imageid>   /*to remove image
 ```
