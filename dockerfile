@@ -18,7 +18,7 @@ RUN curl http://download.nextag.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-to
 ADD tomcat-users.xml /opt/apache-tomcat-8.5.23/conf/
 
 # Startup script
-ADD deploy-and-run.sh /opt/apache-tomcat-${TOMCAT_VERSION}/bin/
+ADD deploy-and-run.sh /opt/apache-tomcat-8.5.23/bin/
 
 RUN chmod 755 /opt/apache-tomcat-${TOMCAT_VERSION}/bin/deploy-and-run.sh \
  && rm -rf /opt/tomcat/webapps/examples /opt/tomcat/webapps/docs
