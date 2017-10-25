@@ -18,6 +18,8 @@ ENV JAVA_HOME /etc/alternatives/jre
 EXPOSE 8080
 
 ENV TOMCAT_VERSION 8.0.26
+ENV DEPLOY_DIR /maven
+
 
 # Get and unpack tomcat
 RUN curl http://download.nextag.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz -o /opt/apache-tomcat-8.5.23.tar.gz \
