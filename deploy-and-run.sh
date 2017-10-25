@@ -19,4 +19,4 @@ fi
 
 # Use faster (though more unsecure) random number generator
 #export CATALINA_OPTS="${CATALINA_OPTS} $(agent-bond-opts --escape) -Djava.security.egd=file:/dev/./urandom"
-/opt/tomcat/bin/catalina.sh run
+#/opt/tomcat/bin/catalina.sh run
