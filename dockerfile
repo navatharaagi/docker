@@ -1,4 +1,4 @@
-# A basic docker file to install tomcat
+# A basic docker file to install tomcat and openjdk8 
 FROM centos:7
 MAINTAINER Navatha Raagi
 
