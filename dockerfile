@@ -20,7 +20,7 @@ ADD tomcat-users.xml /opt/apache-tomcat-8.5.23/conf/
 # Startup script
 ADD deploy-and-run.sh /opt/apache-tomcat-8.5.23/bin/
 
-RUN chmod 755 /opt/apache-tomcat-${TOMCAT_VERSION}/bin/deploy-and-run.sh \
+RUN chmod 755 /opt/apache-tomcat-8.5.23/bin/deploy-and-run.sh \
  && rm -rf /opt/tomcat/webapps/examples /opt/tomcat/webapps/docs
 
 VOLUME ["/opt/tomcat/logs", "/opt/tomcat/work", "/opt/tomcat/temp", "/tmp/hsperfdata_root" ]
