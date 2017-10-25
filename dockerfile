@@ -2,6 +2,14 @@
 FROM centos:7
 MAINTAINER Navatha Raagi
 
+EXPOSE 8080
+
+ENV TOMCAT_VERSION 8.0.26
+ENV DEPLOY_DIR /maven
+
+# Get and unpack tomcat
+
+
 RUN mkdir /app
 ENV JAVA_APP_DIR /app
 
