@@ -11,7 +11,7 @@ ENV DEPLOY_DIR /maven
 RUN curl http://download.nextag.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz -o
 /opt/apache-tomcat-8.5.23.tar.gz \
  && /bin/tar xvf /opt/apache-tomcat-8.5.23.tar.gz -C /opt \
- && ln -s /opt/apache-tomcat-${TOMCAT_VERSION} /opt/tomcat \
+ && ln -s /opt/apache-tomcat-8.5.23 /opt/tomcat \
  && rm /tmp/catalina.tar.gz
 
 # Add roles
