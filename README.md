@@ -28,3 +28,8 @@ q-quiet (only display numeric ids),f-filter o/p) we can check it by starting the
     4. Install tomcat
     5. CMD - start tomcat
     6. Build,run, ship/push
+```ssh
+$docker build -t tomcatjdk8 .    /* build docker image with tag
+$docker tag tomcatjdk8:latest navatharaagi/tomcatjdk8:latest    /*docker tagging
+$docker push navatharaagi/tomcatjdk8:latest   /* push image to our registry
+```
