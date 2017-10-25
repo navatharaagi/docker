@@ -10,3 +10,11 @@ $docker run -id <image id>    /*to run image
 $docker ps      /*lists the running containers with unique ids after every docker run
 $docker exec -it  <container id>  /bin/bash     /*to login to container
 #exit     
+$docker stop <container id>   /*to stop the container
+$docker kill <container id>   /*to stop the container
+$docker ps    /*lists no ids
+$docker start <container id>    /*to start the stopped container
+$docker ps    /*lists started id
+$docker rm -f $(docker ps -aq)    /*to del all running & stopped containers (a-all,
+q-quiet (only display numeric ids),f-filter o/p)
+we can check it by starting the deleted containers, which gives error
