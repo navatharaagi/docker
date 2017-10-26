@@ -31,7 +31,7 @@ ADD tomcat-users.xml /opt/apache-tomcat-8.5.23/conf/
 # Startup script
 COPY tomcatinitscript.sh /etc/init.d/tomcat
 
-RUN chmod 755 /opt/apache-tomcat-8.5.23/bin/deploy-and-run.sh \
+RUN chmod 755 /etc/init.d/tomcat \
  && rm -rf /opt/tomcat/webapps/examples /opt/tomcat/webapps/docs
 
 VOLUME ["/opt/tomcat/logs", "/opt/tomcat/work", "/opt/tomcat/temp", "/tmp/hsperfdata_root" ]
