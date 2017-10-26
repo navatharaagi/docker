@@ -32,11 +32,11 @@ ADD tomcat-users.xml /opt/apache-tomcat-8.5.23/conf/
 COPY tomcatinitscript.sh /etc/init.d/tomcat
 
 RUN chmod 755 /etc/init.d/tomcat \
- && rm -rf /opt/tomcat/webapps/examples /opt/tomcat/webapps/docs
+ && rm -rf /usr/share/tomcat/webapps/examples /usr/share/tomcat/webapps/docs
 
-VOLUME ["/opt/tomcat/logs", "/opt/tomcat/work", "/opt/tomcat/temp", "/tmp/hsperfdata_root" ]
+VOLUME ["/usr/share/tomcat/logs", "/usr/share/tomcat/work", "/usr/share/tomcat/temp", "/tmp/hsperfdata_root" ]
 
-ENV CATALINA_HOME /opt/tomcat
+ENV CATALINA_HOME /usr/share/tomcat
 ENV PATH $PATH:$CATALINA_HOME/bin
 
 CMD /etc/init.d/tomcat start
