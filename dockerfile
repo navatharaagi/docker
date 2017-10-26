@@ -23,7 +23,7 @@ ENV TOMCAT_VERSION 8.0.26
 # Get and unpack tomcat
 RUN curl http://download.nextag.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz -o /opt/apache-tomcat-8.5.23.tar.gz \
  && /bin/tar xf /opt/apache-tomcat-8.5.23.tar.gz -C /opt/ \
- && ln -s /opt/apache-tomcat-8.5.23 /opt/tomcat
+ && ln -s /opt/apache-tomcat-8.5.23 /usr/share/tomcat
 
 # Add roles
 ADD tomcat-users.xml /opt/apache-tomcat-8.5.23/conf/
