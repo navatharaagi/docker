@@ -39,4 +39,4 @@ VOLUME ["/opt/tomcat/logs", "/opt/tomcat/work", "/opt/tomcat/temp", "/tmp/hsperf
 ENV CATALINA_HOME /opt/tomcat
 ENV PATH $PATH:$CATALINA_HOME/bin
 
-CMD /opt/tomcat/bin/deploy-and-run.sh
+CMD service tomcat start
