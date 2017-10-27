@@ -10,4 +10,9 @@ ARG JENKINS_URL=http://mirrors.jenkins.io/war-stable/latest/jenkins.war
 EXPOSE 8080
 #EXPOSE 50000
 
+# Create the jenkins user
+RUN useradd -d "/var/jenkins_home" -u 1000 -m -s /bin/bash jenkins
+VOLUME ["/var/jenkins_home"]
+
+#where jenkins.war get downloaded from
 RUN curl -fsSL ${JENKINS_URL} -o /usr/share/jenkins/jenkins.war
