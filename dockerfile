@@ -25,7 +25,7 @@ RUN curl http://download.nextag.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-to
  && /bin/tar xf /opt/apache-tomcat-8.5.23.tar.gz -C /opt/ \
  && ln -s /opt/apache-tomcat-8.5.23 /usr/share/tomcat
 
-RUN wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+RUN wget=http://mirrors.jenkins.io/war-stable/latest/jenkins.war
 
 # Add roles
 ADD tomcat-users.xml /opt/apache-tomcat-8.5.23/conf/
