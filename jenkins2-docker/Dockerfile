@@ -7,8 +7,8 @@ USER root
 
 
 # Create the jenkins user
-RUN useradd -d "/var/jenkins_home" -u 1000 -m -s /bin/bash jenkins
-VOLUME ["/var/jenkins_home"]
+#RUN useradd -d "/var/jenkins_home" -u 1000 -m -s /bin/bash jenkins
+#VOLUME ["/var/jenkins_home"]
 
 USER jenkins
 
