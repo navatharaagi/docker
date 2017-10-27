@@ -12,10 +12,9 @@ USER root
 
 USER jenkins
 
-#where jenkins.war get downloaded from
-#ARG JENKINS_URL=http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+# jenkins.war get downloaded from
 RUN wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
-RUN wget ${JENKINS_URL} -o /usr/share/jenkins/jenkins.war
+#RUN wget ${JENKINS_URL} -o /usr/share/jenkins/jenkins.war
 
 EXPOSE 8080
 #EXPOSE 50000
