@@ -6,4 +6,5 @@ USER root
 
 USER jenkins
 
+EXPOSE 8080
 #EXPOSE 50000
