@@ -4,10 +4,7 @@ MAINTAINER Navatha Raagi
 
 USER root
 #url= dest=/opt/apache-tomcat-8.5.23/webapps/jenkins.war
-ARG JENKINS_URL=http://mirrors.jenkins.io/war-stable/latest/jenkins.war
 
-EXPOSE 8080
-#EXPOSE 50000
 
 # Create the jenkins user
 RUN useradd -d "/var/jenkins_home" -u 1000 -m -s /bin/bash jenkins
@@ -16,4 +13,8 @@ VOLUME ["/var/jenkins_home"]
 USER jenkins
 
 #where jenkins.war get downloaded from
+ARG JENKINS_URL=http://mirrors.jenkins.io/war-stable/latest/jenkins.war
 RUN curl -fsSL ${JENKINS_URL} -o /usr/share/jenkins/jenkins.war
+
+EXPOSE 8080
+#EXPOSE 50000
