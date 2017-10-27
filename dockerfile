@@ -17,7 +17,7 @@ ENV JAVA_HOME /etc/alternatives/jre
 
 EXPOSE 8080
 
-ENV TOMCAT_VERSION 8.0.26
+ENV TOMCAT_VERSION 8.5.23
 
 
 # Get and unpack tomcat
