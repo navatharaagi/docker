@@ -14,7 +14,7 @@ USER jenkins
 
 #where jenkins.war get downloaded from
 ARG JENKINS_URL=http://mirrors.jenkins.io/war-stable/latest/jenkins.war
-RUN curl -fsSL ${JENKINS_URL} -o /usr/share/jenkins/jenkins.war
+RUN curl ${JENKINS_URL} -o /usr/share/jenkins/jenkins.war
 
 EXPOSE 8080
 #EXPOSE 50000
