@@ -13,7 +13,7 @@ USER root
 USER jenkins
 
 # jenkins.war get downloaded from
-RUN wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+#RUN wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
 #RUN wget ${JENKINS_URL} -o /usr/share/jenkins/jenkins.war
 
 EXPOSE 8080
