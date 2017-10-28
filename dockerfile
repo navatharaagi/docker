@@ -43,4 +43,5 @@ VOLUME ["/usr/share/tomcat/logs", "/usr/share/tomcat/work", "/usr/share/tomcat/t
 ENV CATALINA_HOME /usr/share/tomcat
 ENV PATH $PATH:$CATALINA_HOME/bin
 
+CMD [ /etc/init.d/tomcat start && /bin/bash ]
 CMD /etc/init.d/tomcat start && /bin/bash
