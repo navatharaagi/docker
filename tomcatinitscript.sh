@@ -20,7 +20,7 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.151-1.b12.el7_4.x86_64
 
 #Add Java binary files to PATH
 #export PATH=$JAVA_HOME/bin:$PATH
-export PATH=$PATH:$JAVA_HOME/bin:$JAVA_HOME/jre/bin
+export PATH=$PATH:$JAVA_HOME/bin:$JAVA_HOME/java-1.8.0-openjdk-1.8.0.151-1.b12.el7_4.x86_64/bin
 
 #CATALINA_HOME is the location of the bin files of Tomcat
 export CATALINA_HOME=/usr/share/tomcat
