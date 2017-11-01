@@ -1,4 +1,4 @@
-# A basic docker file to install Jenkins
+# A Jenkins-master docker file 
 FROM jenkinsci/jenkins:2.0-beta-1
 MAINTAINER Navatha Raagi
 
