@@ -16,3 +16,4 @@ USER jenkins
 
 #these images don’t actually “run” anything, just prints a message as output when they start as a reminder
 #CMD ["echo", "Data Container for jenkins"] && wait
+CMD echo "Data container " && wait
