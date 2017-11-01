@@ -14,5 +14,5 @@ VOLUME ["/var/log/jenkins"]
 #set the user of this container to "Jenkins"  for consistency
 USER jenkins
 
-#these images don’t actually “run” anything, just output a message when they start as a reminder
+#these images don’t actually “run” anything, just prints a message as output when they start as a reminder
 CMD ["echo", "Data Container for jenkins"]
