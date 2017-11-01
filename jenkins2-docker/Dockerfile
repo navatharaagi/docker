@@ -3,8 +3,9 @@ FROM jenkinsci/jenkins:2.0-beta-1
 MAINTAINER Navatha Raagi
 
 USER root
-
+RUN mkdir /var/log/jenkins
+RUN chown -R jenkins:jenkins /var/log/jenkins
 USER jenkins
 
-EXPOSE 8080
-#EXPOSE 50000
+ENV JAVA_OPTS="-Xmx8192m"
+ENV JENKINS_OPTS="--handlerCountStartup=100 --handlerCountMax=300 --logfile=/var/log/jenkins/jenkins.log"
