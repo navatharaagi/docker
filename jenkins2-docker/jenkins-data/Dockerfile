@@ -12,3 +12,4 @@ RUN chown -R jenkins:jenkins /var/log/jenkins
 VOLUME ["/var/log/jenkins"]
 
 #set the user of this container to "Jenkins"  for consistency
+USER jenkins
