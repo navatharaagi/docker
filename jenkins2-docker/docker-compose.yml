@@ -1,5 +1,7 @@
 data:
  build: jenkins-data
+ volumes:
+       - /var/log/jenkins:/tmp/jenkins_home
 master:
  build: jenkins-master
  volumes_from:
