@@ -3,8 +3,11 @@ data:
 
 master:
  build: jenkins-master
- volumes_from:
-  - "data:/tmp/jenkins_home"
+ volumes:
+  - type: volume
+    source: /var/log/jenkins
+    target: /tmp/jenkins_home
+
  ports:
   - "50000:50000"
   - "8080:8080"
