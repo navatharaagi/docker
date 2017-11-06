@@ -10,7 +10,7 @@ RUN chown -R jenkins:jenkins /var/log/jenkins
 
 #add the Docker volume by making log folder a "mount"
 #VOLUME ["/var/log/jenkins"]
-VOLUME ["/var/log/jenkins", "/Users/bhkolli/documents/git/docker/jenkins2-docker/jenkins_home"]
+VOLUME ["/var/log/jenkins", "/tmp/jenkins_home"]
 
 #set the user of this container to "Jenkins"  for consistency
 USER jenkins
