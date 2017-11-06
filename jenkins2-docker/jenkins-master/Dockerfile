@@ -1,5 +1,5 @@
 # A Jenkins-master docker file
-FROM jenkinsci/jenkins:2.0-beta-1
+FROM jenkinsci/jenkins:lts
 MAINTAINER Navatha Raagi
 
 USER root
