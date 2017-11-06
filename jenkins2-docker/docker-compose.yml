@@ -4,9 +4,7 @@ data:
 master:
  build: jenkins-master
  volumes:
-  - type: volume
-    source: /var/log/jenkins
-    target: /tmp/jenkins_home
+  - "/var/log/jenkins:/tmp/jenkins_home"
 
  ports:
   - "50000:50000"
