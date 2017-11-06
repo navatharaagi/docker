@@ -4,8 +4,10 @@ data:
 master:
  build: jenkins-master
  volumes:
+  - "/Users/bhkolli/documents/git/docker/jenkins2-docker/jenkins_home://var/jenkins_home"
   - "/tmp/jenkins_home:/var/log/jenkins"
 
+/var/jenkins_home
  ports:
   - "50000:50000"
   - "8080:8080"
