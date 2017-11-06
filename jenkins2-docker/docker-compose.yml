@@ -4,7 +4,7 @@ data:
 master:
  build: jenkins-master
  volumes:
-  - "/Users/bhkolli/documents/git/docker/jenkins2-docker/jenkins_home://var/jenkins_home"
+  - "/Users/bhkolli/documents/git/docker/jenkins2-docker/jenkins_home:/var/jenkins_home"
   - "/tmp/jenkins_home:/var/log/jenkins"
 
 /var/jenkins_home
