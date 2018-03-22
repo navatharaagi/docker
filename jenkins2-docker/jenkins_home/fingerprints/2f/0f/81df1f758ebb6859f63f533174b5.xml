@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-11-11 06:50:36.793 UTC</timestamp>
+  <original>
+    <name>jenkinsbuildjob/org.jenkins-ci.main:cli</name>
+    <number>1</number>
+  </original>
+  <md5sum>2f0f81df1f758ebb6859f63f533174b5</md5sum>
+  <fileName>org.jenkins-ci.main:cli-2.90-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>jenkinsbuildjob/org.jenkins-ci.main:cli</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

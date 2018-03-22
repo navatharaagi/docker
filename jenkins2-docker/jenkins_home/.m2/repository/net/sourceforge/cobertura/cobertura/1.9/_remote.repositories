@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:47:02 UTC 2017
+cobertura-1.9.jar>repo.jenkins-ci.org=
+cobertura-1.9.pom>repo.jenkins-ci.org=

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-11-11 06:07:46.104 UTC</timestamp>
+  <md5sum>185856176f059ac9a124efbe4512d85d</md5sum>
+  <fileName>Credential id=navathagit name=navatharaagi/****** (github-authentication)</fileName>
+  <usages>
+    <entry>
+      <string>gitmavenjob</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>Mavenjob</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob</string>
+      <ranges>1-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

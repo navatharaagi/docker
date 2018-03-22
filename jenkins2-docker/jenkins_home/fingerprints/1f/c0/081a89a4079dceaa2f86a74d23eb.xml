@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-11-11 06:47:27.38 UTC</timestamp>
+  <md5sum>1fc0081a89a4079dceaa2f86a74d23eb</md5sum>
+  <fileName>javax.servlet:servlet-api-0.jar</fileName>
+  <usages>
+    <entry>
+      <string>jenkinsbuildjob/org.jenkins-ci.main:cli</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob</string>
+      <ranges>1,6</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob/org.jenkins-ci.main:pom</string>
+      <ranges>1,6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

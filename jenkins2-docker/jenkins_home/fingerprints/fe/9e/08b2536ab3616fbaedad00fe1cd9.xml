@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-11-11 06:50:37.22 UTC</timestamp>
+  <md5sum>fe9e08b2536ab3616fbaedad00fe1cd9</md5sum>
+  <fileName>org.jenkins-ci:annotation-indexer-1.4.jar</fileName>
+  <usages>
+    <entry>
+      <string>jenkinsbuildjob/org.jenkins-ci.main:cli</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

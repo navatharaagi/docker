@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-11-11 06:28:01.595 UTC</timestamp>
+  <original>
+    <name>Mavenjob/com.maven.navatha:MavenWebProject</name>
+    <number>3</number>
+  </original>
+  <md5sum>3b6c3a36711b555a28a1d9ba90d6196d</md5sum>
+  <fileName>com.maven.navatha:MavenWebProject.war</fileName>
+  <usages>
+    <entry>
+      <string>Mavenjob/com.maven.navatha:MavenWebProject</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>Mavenjob</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

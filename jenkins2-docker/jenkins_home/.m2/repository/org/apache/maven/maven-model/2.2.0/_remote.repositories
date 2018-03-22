@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:49:20 UTC 2017
+maven-model-2.2.0.jar>repo.jenkins-ci.org=
+maven-model-2.2.0.jar>central=
+maven-model-2.2.0.pom>repo.jenkins-ci.org=

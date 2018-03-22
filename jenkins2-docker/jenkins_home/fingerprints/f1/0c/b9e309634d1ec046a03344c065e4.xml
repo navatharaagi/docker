@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-11-11 06:47:27.18 UTC</timestamp>
+  <md5sum>f10cb9e309634d1ec046a03344c065e4</md5sum>
+  <fileName>org.codehaus.mojo:animal-sniffer-annotations-1.16.jar</fileName>
+  <usages>
+    <entry>
+      <string>jenkinsbuildjob/org.jenkins-ci.main:cli</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob</string>
+      <ranges>1,6</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob/org.jenkins-ci.main:pom</string>
+      <ranges>1,6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

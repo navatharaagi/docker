@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:51:44 UTC 2017
+stapler-1.253.jar>repo.jenkins-ci.org=
+stapler-1.253.pom>repo.jenkins-ci.org=

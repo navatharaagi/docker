@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:48:53 UTC 2017
+wagon-gitsite-0.3.5.jar>central=
+wagon-gitsite-0.3.5.pom>central=
+wagon-gitsite-0.3.5.jar>repo.jenkins-ci.org=
+wagon-gitsite-0.3.5.pom>repo.jenkins-ci.org=

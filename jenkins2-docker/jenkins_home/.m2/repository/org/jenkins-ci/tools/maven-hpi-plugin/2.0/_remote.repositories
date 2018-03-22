@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:45:38 UTC 2017
+maven-hpi-plugin-2.0.jar>repo.jenkins-ci.org=
+maven-hpi-plugin-2.0.pom>repo.jenkins-ci.org=

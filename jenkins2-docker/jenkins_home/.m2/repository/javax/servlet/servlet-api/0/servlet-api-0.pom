@@ -1,0 +1,12 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>javax.servlet</groupId>
+  <artifactId>servlet-api</artifactId>
+  <version>0</version>
+  <name>Servlet API</name>
+  <!-- 
+    The servlet API spec changed artifactId which means you can end up with an old version and a new version on the classpath.
+    Whilst you can add exclusions everywhere it is much simpler to manage the dependency the version to this version which has no
+    sources and will prevent any mistakes from happening.
+  -->
+</project>

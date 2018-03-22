@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-11-11 06:50:37.309 UTC</timestamp>
+  <md5sum>82e2a9d35ca8389ce4cf8a78d51b75df</md5sum>
+  <fileName>org.jenkins-ci.main:remoting-3.13.jar</fileName>
+  <usages>
+    <entry>
+      <string>jenkinsbuildjob/org.jenkins-ci.main:cli</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

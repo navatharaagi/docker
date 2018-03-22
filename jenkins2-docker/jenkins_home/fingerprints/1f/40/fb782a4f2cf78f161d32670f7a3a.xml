@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-11-10 01:40:08.281 UTC</timestamp>
+  <md5sum>1f40fb782a4f2cf78f161d32670f7a3a</md5sum>
+  <fileName>junit:junit-3.8.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>Mavenjob/com.maven.navatha:MavenWebProject</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>Mavenjob</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

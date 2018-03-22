@@ -7,7 +7,7 @@ $docker login     /*login to our registry
 username: xxxxxx
 pwd: xxxxxxx
 ```
-2. Pull CentOS 7 Image from docker registry
+2. Pull  CentOS 7 Image from docker registry
 ```ssh
 $docker pull centos:7    /*pulls centos 7 image,when docker in running state
 ```

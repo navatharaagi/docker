@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:46:34 UTC 2017
+maven-common-artifact-filters-3.0.1.jar>repo.jenkins-ci.org=
+maven-common-artifact-filters-3.0.1.pom>repo.jenkins-ci.org=

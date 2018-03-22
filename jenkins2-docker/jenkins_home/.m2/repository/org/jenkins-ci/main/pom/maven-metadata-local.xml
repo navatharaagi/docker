@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jenkins-ci.main</groupId>
+  <artifactId>pom</artifactId>
+  <versioning>
+    <versions>
+      <version>2.90-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20171111072757</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:48:53 UTC 2017
+wagon-provider-api-1.0.jar>central=
+wagon-provider-api-1.0.jar>repo.jenkins-ci.org=
+wagon-provider-api-1.0.pom>repo.jenkins-ci.org=

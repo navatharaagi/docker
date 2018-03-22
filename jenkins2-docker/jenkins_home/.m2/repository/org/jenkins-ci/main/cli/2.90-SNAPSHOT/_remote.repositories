@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:50:36 UTC 2017
+cli-2.90-SNAPSHOT.pom>=
+cli-2.90-SNAPSHOT.jar>=
+cli-2.90-SNAPSHOT-jar-with-dependencies.jar>=

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-11-11 06:47:26.995 UTC</timestamp>
+  <md5sum>d0d40fefd388f53798a479e6020802a6</md5sum>
+  <fileName>org.jenkins-ci:jenkins:jenkins-1.39.pom</fileName>
+  <usages>
+    <entry>
+      <string>jenkinsbuildjob/org.jenkins-ci.main:cli</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob</string>
+      <ranges>1,6</ranges>
+    </entry>
+    <entry>
+      <string>jenkinsbuildjob/org.jenkins-ci.main:pom</string>
+      <ranges>1,6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

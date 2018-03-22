@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.kohsuke</groupId>
+    <artifactId>pom</artifactId>
+    <version>17</version>
+  </parent>
+
+  <artifactId>access-modifier</artifactId>
+  <version>1.11</version>
+
+  <name>Custom access modifier for Java</name>
+  <packaging>pom</packaging>
+  <description>Extensible application-specific access modifiers for Java</description>
+
+  <modules>
+    <module>access-modifier-annotation</module>
+    <module>access-modifier-checker</module>
+  </modules>
+
+  <distributionManagement>
+    <site>
+      <id>github-pages</id>
+      <url>gitsite:git@github.com/kohsuke/access-modifier.git</url>
+    </site>
+  </distributionManagement>
+
+  <scm>
+    <connection>scm:git:git@github.com/kohsuke/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/kohsuke/${project.artifactId}.git</developerConnection>
+    <url>http://${project.artifactId}.kohsuke.org/</url>
+    <tag>access-modifier-1.11</tag>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>kohsuke</id>
+      <name>Kohsuke Kawaguchi</name>
+    </developer>
+  </developers>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
+  
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <distribution>repository</distribution>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <additionalparam>-Xdoclint:none</additionalparam>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <configuration>
+          <reportPlugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-javadoc-plugin</artifactId>
+              <configuration>
+                <additionalparam>-Xdoclint:none</additionalparam>
+              </configuration>
+            </plugin>
+          </reportPlugins>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.ow2.asm</groupId>
+        <artifactId>asm-debug-all</artifactId>
+        <version>5.0.3</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>

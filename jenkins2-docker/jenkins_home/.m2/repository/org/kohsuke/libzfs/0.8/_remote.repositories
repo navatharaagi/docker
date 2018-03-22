@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:51:46 UTC 2017
+libzfs-0.8.jar>repo.jenkins-ci.org=
+libzfs-0.8.pom>repo.jenkins-ci.org=

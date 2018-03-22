@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:48:21 UTC 2017
+surefire-logger-api-2.20.jar>repo.jenkins-ci.org=
+surefire-logger-api-2.20.pom>repo.jenkins-ci.org=

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:45:42 UTC 2017
+plexus-compiler-manager-1.5.3.jar>repo.jenkins-ci.org=
+plexus-compiler-manager-1.5.3.pom>repo.jenkins-ci.org=

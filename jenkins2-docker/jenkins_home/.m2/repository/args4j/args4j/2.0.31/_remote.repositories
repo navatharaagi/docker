@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 11 06:51:45 UTC 2017
+args4j-2.0.31.jar>repo.jenkins-ci.org=
+args4j-2.0.31.pom>repo.jenkins-ci.org=
