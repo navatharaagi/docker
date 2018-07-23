@@ -1,7 +1,7 @@
 # docker
 https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
 1. Install docker on mac & create docker account
-- After docker installation,start docker
+- After docker installation, start docker
 ```ssh
 $docker login     /*login to our registry
 username: xxxxxx
@@ -24,7 +24,7 @@ $docker ps
 $docker start <container id>    /*to start the stopped container
 $docker ps    /*lists started id
 $docker rm -f $(docker ps -aq)    /*to del all running & stopped containers (a-all,
-q-quiet (only display numeric ids),f-filter o/p) we can check it by starting the deleted containers, which gives error
+q-quiet (only display numeric ids),f-filter o/p) we can check it by starting the deleted containers , which gives error
 ```
 4. Create a Dockerfile
     1. Base image as CentOS 7  
@@ -35,7 +35,7 @@ q-quiet (only display numeric ids),f-filter o/p) we can check it by starting the
     6. Build,run, ship/push
 ```ssh
 $docker build -t tomcatjdk8 .    /* build docker image with tag
-$docker tag tomcatjdk8:latest <username>/tomcatjdk8:latest    /*docker tagging
-$docker push <username>/tomcatjdk8:latest   /* push image to our registry
-$docker rmi <imageid>   /*to delete an image
+$docker tag tomcatjdk8:latest <username>/tomcatjdk8:latest     /* docker tagging
+$docker push <username>/tomcatjdk8:latest  /* push image to our registry
+$docker rmi <imageid>   /* to delete an image
 ```

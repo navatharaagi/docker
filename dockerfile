@@ -1,4 +1,4 @@
-# A basic docker file to install tomcat and openjdk8 and jenkins war file
+#A basic docker file to install tomcat and openjdk8 and jenkins war file
 FROM centos:7
 MAINTAINER Navatha Raagi
 
