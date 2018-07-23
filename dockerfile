@@ -21,7 +21,7 @@ EXPOSE 8080
 ENV TOMCAT_VERSION 8.5.23
 
 
-# Get and unpack tomcat
+#Get and unpack tomcat
 RUN curl http://download.nextag.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz -o /opt/apache-tomcat-8.5.23.tar.gz \
  && /bin/tar xf /opt/apache-tomcat-8.5.23.tar.gz -C /opt/ \
  && ln -s /opt/apache-tomcat-8.5.23 /usr/share/tomcat
@@ -30,7 +30,7 @@ RUN curl http://download.nextag.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-to
 RUN wget -O /opt/apache-tomcat-8.5.23/webapps/jenkins.war http://mirrors.jenkins.io/war-stable/latest/jenkins.war
 #COPY jenkin.war /opt/apache-tomcat-8.5.23/webapps/jenkins.war
 
-# Add roles
+#Add roles
 ADD tomcat-users.xml /opt/apache-tomcat-8.5.23/conf/
 
 # Startup script
