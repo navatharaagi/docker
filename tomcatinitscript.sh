@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# chkconfig: 345 99 28
+#chkconfig: 345 99 28
 # description: Starts/Stops Apache Tomcat
 #
 # Tomcat 7 start/stop/status script
