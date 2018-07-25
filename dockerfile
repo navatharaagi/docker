@@ -33,7 +33,7 @@ RUN wget -O /opt/apache-tomcat-8.5.23/webapps/jenkins.war http://mirrors.jenkins
 #Add roles
 ADD tomcat-users.xml /opt/apache-tomcat-8.5.23/conf/
 
-# Startup script
+#Startup script
 COPY tomcatinitscript.sh /etc/init.d/tomcat
 
 RUN chmod 755 /etc/init.d/tomcat \
