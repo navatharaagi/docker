@@ -11,10 +11,10 @@
 #Updated method for gathering pid of the current proccess
 #Added usage of CATALINA_BASE
 #Added coloring and additional status
-# Added check for existence of the tomcat user
+#Added check for existence of the tomcat user
 #
 
-#Location of JAVA_HOME (bin files)
+# Location of JAVA_HOME (bin files)
 #export JAVA_HOME=/usr/lib/jvm/jre
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.151-1.b12.el7_4.x86_64
 
