@@ -49,7 +49,7 @@ start() {
   else
     # Start tomcat
     echo -e "\e[00;32mStarting tomcat\e[00m"
-    #ulimit -n 100000
+    # ulimit -n 100000
     #umask 007
     #/bin/su -p -s /bin/sh tomcat
         if [ `user_exists $TOMCAT_USER` = "1" ]
