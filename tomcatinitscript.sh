@@ -9,9 +9,9 @@
 #
 # Release updates:
 # Updated method for gathering pid of the current proccess
-#Added usage of CATALINA_BASE
-#Added coloring and additional status
-#Added check for existence of the tomcat user
+# Added usage of CATALINA_BASE
+# Added coloring and additional status
+# Added check for existence of the tomcat user
 #
 
 # Location of JAVA_HOME (bin files)
