@@ -1,4 +1,4 @@
-#!/bin/sh
+# !/bin/sh
 appDir=${DEPLOY_DIR:-/maven}
 echo "Checking *.war in $appDir"
 if [ -d ${appDir} ]; then

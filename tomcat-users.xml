@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!--Licensed to the Apache Software Foundation (ASF) under one or more
+<!-- Licensed to the Apache Software Foundation (ASF) under one or more
   contributor license agreements.  See the NOTICE file distributed with
   this work for additional information regarding copyright ownership.
   The ASF licenses this file to You under the Apache License, Version 2.0
@@ -15,7 +15,7 @@
   limitations under the License.
 -->
 <tomcat-users>
-<!--NOTE: By default, no user is included in the "manager-gui" role required
+<!-- NOTE: By default, no user is included in the "manager-gui" role required
   to operate the "/manager/html" web application.  If you wish to use this app,
   you must define such a user - the username and password are arbitrary.
 -->
